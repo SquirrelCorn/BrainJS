@@ -1,4 +1,3 @@
-````markdown
 # BrainJS
 
 BrainJS is a JavaScript library for compiling Brainf**k code directly in the web browser.
@@ -43,6 +42,6 @@ brainjs.compile(",.+.", "Hello", function(output) {
 });
 ```
 
-### Additional Notes:
+### Future Features:
 
 - **Web UI:** A nice UI to interact with this compiler.
