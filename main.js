@@ -10,13 +10,15 @@
        THIS IS THE SOURCE CODE, NOT THE LIBARY
 
  
-const brainjs = {
-    version: 1.0,
+const BrainfuckCompiler = {
     compile: function(bf, input) {
         let i = 0;
         let inputarray = [];
-        for (let b = 0; b < input.length; b++) {
-            inputarray.push(input.charCodeAt(b));
+        // Check if input is provided and not undefined
+        if (input !== undefined) {
+            for (let b = 0; b < input.length; b++) {
+                inputarray.push(input.charCodeAt(b));
+            }
         }
         let compiled = 'var p=0;var b="";var a=[];for(i=0;i<30000;i++){a[i]=0};x=' + JSON.stringify(inputarray) + ';';
         while (i < bf.length) {
@@ -80,3 +82,5 @@ const brainjs = {
         return compiled;
     }
 };
+
+console.log(BrainfuckCompiler.compile(",.,.,.,.,.", "apple"));
