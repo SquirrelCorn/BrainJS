@@ -7,7 +7,7 @@ BrainJS is a JavaScript library for compiling Brainf**k code directly in the web
 To use BrainJS, include the library in your HTML file:
 
 ```html
-<script src="path/to/brainjs.js"></script>
+<script src="https://raw.githubusercontent.com/SquirrelCorn/BrainJS/main/lib.js"></script>
 
 Usage:
 Current Library Version:
