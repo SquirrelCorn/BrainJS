@@ -33,15 +33,6 @@ brainjs.compile(BrainF**k, Ender);
   - If not provided, the output will be printed to the console.
   - You can pass a callback function to handle the output differently (e.g., display in a UI element).
 
-#### Example:
-
-```javascript
-// Compile Brainf**k code and display output in a UI element with ID "output"
-brainjs.compile(",.+.", "Hello", function(output) {
-    document.getElementById("output").textContent = output;
-});
-```
-
 ### Future Features:
 
 - **Web UI:** A nice UI to interact with this compiler.
