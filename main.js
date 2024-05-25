@@ -82,5 +82,3 @@ const BrainfuckCompiler = {
         return compiled;
     }
 };
-
-console.log(BrainfuckCompiler.compile(",.,.,.,.,.", "apple"));
