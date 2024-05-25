@@ -1,9 +1,13 @@
+ /*
  ________________________________________________________
 |BrainJS 1.0  | By SquirrelCorn  | SPDX License: GPL-3.0 |
  ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
  A web brainf**k compiler.
  ________________________________________________________
  Go to: https://github.com/SquirrelCorn/BrainJS
+
+ ________________________________________________________
+       THIS IS THE SOURCE CODE, NOT THE LIBARY
 
  
 const brainjs = {
